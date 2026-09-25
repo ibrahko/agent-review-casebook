@@ -15,7 +15,8 @@ Que vaut vraiment la réponse d'un agent de code IA ? Ce carnet de cas juge des 
 
 | N° | Tâche | Outil | Verdict |
 |---|---|---|---|
-| [001](cases/001-untrack-virtualenv/case.md) | Ne plus suivre un virtualenv commité par erreur | — | *en cours* |
+| [001](cases/001-untrack-virtualenv/case.fr.md) | Ne plus suivre un virtualenv commité par erreur | Claude Code (`claude-opus-5-5`) | **Ship** |
+| [002](cases/002-slow-orders-endpoint/case.fr.md) | Endpoint des commandes trop lent (requêtes N+1) | — | *en cours* |
 
 ## Méthode
 
@@ -25,7 +26,7 @@ Que vaut vraiment la réponse d'un agent de code IA ? Ce carnet de cas juge des 
 - Les notes sont données après vérification du résultat (tests lancés, diff relu), jamais d'après le résumé de l'agent.
 - Aucun code client, aucune donnée réelle, aucun secret. On ne classe pas les marques : on juge des réponses.
 
-Les fiches de cas sont rédigées en anglais, pour un lectorat international.
+Chaque document existe en anglais et en français ; les fiches de cas sont rédigées d'abord en anglais, puis traduites.
 
 ## Auteur
 

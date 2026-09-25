@@ -1,5 +1,7 @@
 # Rubric
 
+**English** · [Français](RUBRIC.fr.md)
+
 Every case is scored on the same five criteria, from 1 to 5, then given a one-line verdict.
 
 | Criterion | Question |

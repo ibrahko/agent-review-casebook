@@ -1,9 +1,11 @@
-# Case NNN — <short title>
+# Case 002 — Slow orders endpoint (N+1 queries)
 
-**English** · [Français](TEMPLATE.fr.md)
+**English** · [Français](case.fr.md)
 
 ## 1. Task
-<exact prompt given to the agent, and the context: project, files, starting state>
+> Our `/api/orders/` endpoint has become very slow as the number of orders grew. Please find out why and fix it, without changing what the API returns.
+
+Starting state: see [task.md](task.md) (recreate with `setup/make_start_state.py`).
 
 ## 2. Setup
 - Tool:

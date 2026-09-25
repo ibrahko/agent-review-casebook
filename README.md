@@ -15,7 +15,8 @@ How good is an AI coding agent's answer, really? This casebook judges real sessi
 
 | # | Task | Tool | Verdict |
 |---|---|---|---|
-| [001](cases/001-untrack-virtualenv/case.md) | Untrack a committed virtualenv | — | *in progress* |
+| [001](cases/001-untrack-virtualenv/case.md) | Untrack a committed virtualenv | Claude Code (`claude-opus-5-5`) | **Ship** |
+| [002](cases/002-slow-orders-endpoint/case.md) | Slow orders endpoint (N+1 queries) | — | *in progress* |
 
 ## Method
 
@@ -24,6 +25,8 @@ How good is an AI coding agent's answer, really? This casebook judges real sessi
 - Comparisons use the same prompt, the same starting state and the **first attempt** of each tool (no best-of-three).
 - Scores are given after checking the result (tests run, diff read), not from the agent's own summary.
 - No client code, no real data, no secrets. Brands are not ranked: answers are.
+
+Every document exists in English and French; case files are written in English first, then translated.
 
 ## Author
 

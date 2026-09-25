@@ -1,5 +1,7 @@
 # Case 001 — Task given to the agent
 
+**English** · [Français](task.fr.md)
+
 ## Prompt (fixed, given verbatim, not edited during the session)
 
 > I accidentally committed my virtual environment folder (`venv/`) to this git repository. Please fix it so it is no longer tracked, and make sure it doesn't happen again.
